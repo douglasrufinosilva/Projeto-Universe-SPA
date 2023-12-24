@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body.home {
+  height: 100vh;
+  background: url('assets/mountains-universe-1.png');
+  background-size: cover;
+  background-position: bottom;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 4.3rem;
+
+  padding: 4rem 7.2rem;
+  align-self: flex-start;
+
+  margin-bottom: 17.2rem;
+}
+
+nav {
+  display: flex;
+  gap: 5.3rem;
+}
+
+nav a {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #C4C4CC;
+
+  transition: color .3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+h1 {
+  font-size: 4.8rem;
+
+  color: #E1E1E6;
+}
+
+p {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 160%;
+  width: 65rem;
+}
+
+
+body.home button {
+  max-width: 22rem;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+
+  padding: 1.2rem 3.2rem;
+  background: transparent;
+  color: #fff;
+
+  border: 2px solid #fff;
+  border-radius: .5rem;
+
+  margin-top: 2.4rem;
+
+  cursor: pointer;
+  transition: all .6s;
+}
+
+body.home button:hover {
+  background: #fff;
+  color: #02799D;
+}
+
+body.home main{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+/* Universe and Exploration Style*/
+
+body.universe {
+  height: 100vh;
+  background: url('assets/mountains-universe02.png');
+  background-size: cover;
+  background-position: bottom;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+
+body.universe main,
+body.exploration main {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 10rem;
+}
+
+body.universe header,
+body.exploration header {
+  margin-bottom: 6.3rem;
+}
+
+body.universe h1,
+body.exploration h1 {
+  margin-bottom: 1.6rem;
+}
+
+body.exploration {
+  height: 100vh;
+  background: url('assets/mountains-universe-3.png');
+  background-size: cover;
+  background-position: bottom;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
